@@ -55,7 +55,7 @@ async function CallingJson(){
             
 
             const p = document.createElement('p');
-            p.textContent = clubs[indexCounter].name;
+            p.textContent = clubs[clubLocations[indexCounter]].name;
             card.appendChild(p);
             container.appendChild(card);
             indexCounter++;
