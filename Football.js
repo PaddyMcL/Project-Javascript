@@ -49,8 +49,6 @@ async function CallingJson(){
 
             const paragraph = document.createElement('p')
   
-
-            // Add title
             const h1 = document.createElement('h1');
             h1.textContent = element.name;
             card.appendChild(h1);
